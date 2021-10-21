@@ -44,6 +44,11 @@ df.index
 df.describe()
 ```
 # LOC VS ILOC:
+* .loc: Access a group of rows and columns by label(s) or a boolean array.
+.loc[] is primarily label based, but may also be used with a boolean array.
+* iloc: Purely integer-location based indexing for selection by position.
+.iloc[] is primarily integer position based (from 0 to length-1 of the axis), but may also be used with a boolean array.
+
 * Reprint the dataset again
 ```py
 df.head()
@@ -52,7 +57,7 @@ df.head()
 ```py
 df.loc[(df['LISTENERS']  == 6)]
 ```
-* # print value from row 12 to row 23:
+* Print value from row 12 to row 23:
 ```py
 df.iloc[12:24]
 ```
