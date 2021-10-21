@@ -23,4 +23,25 @@ df = pd.read_csv("audience.tsv",sep = "\t")
 ```py
 df.head()
 ```
+*# Then I view the dataframe's size using the "shape":
+```py
+df.shape
+```
+*Then I view the dataframe's information using the "info":
+```py
+df.info()
+```
+*print all the columns' name:
+```py
+list(df.columns)
+```
+*print all indexing in the datafame:
+```py
+df.index
+```
+* print basic statistics on data:
+```py
+df.describe()
+```
+
 
