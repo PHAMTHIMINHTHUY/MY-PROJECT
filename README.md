@@ -8,8 +8,7 @@
 
 * Load the library:
 ```py
-( import pandas as pd}```
-```py
+( import pandas as pd}
 (import numpy as np}```
 
 
