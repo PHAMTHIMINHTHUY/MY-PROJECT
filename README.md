@@ -23,6 +23,8 @@ df = pd.read_csv("audience.tsv",sep = "\t")
 ```py
 df.head()
 ```
+!(file:///Users/phamthiminhthuy2312/Pictures/Thu%CC%9B%20vie%CC%A3%CC%82n%20a%CC%89nh.photoslibrary/resources/derivatives/masters/D/DF406667-C29D-4939-8A6F-DE884AD3C3B0_4_5005_c.jpeg)
+
 * Then I view the dataframe's size using the "shape":
 ```py
 df.shape
@@ -61,7 +63,8 @@ df.loc[(df['LISTENERS']  == 6)]
 ```py
 df.iloc[12:24]
 ```
-#Group By
+# Group By
+* 
 * Find groups that have something in common:
 ```py
 group_df= df[["DAYS","FOLLOWERS"]] 
