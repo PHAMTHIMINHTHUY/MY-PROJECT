@@ -7,10 +7,9 @@
 ![Just a fun gif](https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif)
 
 * Load the library:
-```py
+`py
 ( import pandas as pd}
 (import numpy as np}
-
 * I load the database of Music listening statistics on artis LT'album:
-```py
+`py
 df = pd.read_csv("audience.tsv",sep = "\t")
