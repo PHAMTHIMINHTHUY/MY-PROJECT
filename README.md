@@ -8,14 +8,19 @@
 
 * Load the library:
 ```py
+
 ( import pandas as pd}
 (import numpy as np}
+```
 
 * I load the database of Music listening statistics on artis LT'album:
 ```py
 df = pd.read_csv("audience.tsv",sep = "\t")
-
-#Then printed out the first record of the dataframe 
-#And I used the "head".
 ```
+
+* Then printed out the first record of the dataframe 
+#And I used the "head".
+```py
 df.head()
+```
+
