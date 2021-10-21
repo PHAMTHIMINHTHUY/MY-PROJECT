@@ -92,6 +92,9 @@ df["LISTENERS"].plot.bar(color="red")
 c = df.groupby("DAYS")["FOLLOWERS"].sum()
 c.sort_values(ascending = False).head(5)
 ```
+# Analysis of the results and conclusions:
+* Therefore, I found that using the pandas library to analyze the data helped me make detailed statistics about the frequency, the number of listeners, streams and album tracks.
+* Pandas has helped me intelligently link data, handle missing data, and bring messy data into a structured form.
 
 
 
