@@ -11,4 +11,5 @@
 ```( import pandas as pd}```
 
 ```(import numpy as np}```
+* To read a file .csv i use the "read_csv".And will be returned a dataframe.
 
