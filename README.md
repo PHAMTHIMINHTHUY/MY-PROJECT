@@ -5,4 +5,5 @@
 *The pandas library in python is an open source library that effectively supports data manipulation. This is a powerful data processing and analysis toolkit of the python programming language. This library is widely used in both research and development of data science applications. This library uses a data structure called Dataframe.
 # How to work with the gấu trúc library?
 ![Just a fun gif](https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif)
+
 *Load the library:
