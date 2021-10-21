@@ -71,7 +71,6 @@ df.iloc[12:24]
 ![Imgur](https://i.imgur.com/f3ejH6K.png)
 
 # Group By
-* 
 * Find groups that have something in common:
 ```py
 group_df= df[["DAYS","FOLLOWERS"]] 
