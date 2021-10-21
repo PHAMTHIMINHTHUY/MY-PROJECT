@@ -3,4 +3,5 @@
 * So today I want to use the pandas library to analyze the statistics on Ly Trang's album (statistics are from the date 21/09/2021 to 18/10/2021 on Sportify)
 # What is python pandas library?
 *The pandas library in python is an open source library that effectively supports data manipulation. This is a powerful data processing and analysis toolkit of the python programming language. This library is widely used in both research and development of data science applications. This library uses a data structure called Dataframe.
-
+# How to work with the gấu trúc library?
+*Load the library:
