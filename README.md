@@ -7,4 +7,5 @@
 ![Just a fun gif](https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif)
 
 *Load the library:
-` {import pandas as pd}
+~( import pandas as 
+
