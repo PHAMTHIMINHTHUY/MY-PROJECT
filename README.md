@@ -23,25 +23,58 @@ df = pd.read_csv("audience.tsv",sep = "\t")
 ```py
 df.head()
 ```
-*# Then I view the dataframe's size using the "shape":
+* Then I view the dataframe's size using the "shape":
 ```py
 df.shape
 ```
-*Then I view the dataframe's information using the "info":
+* Then I view the dataframe's information using the "info":
 ```py
 df.info()
 ```
-*print all the columns' name:
+* Print all the columns' name:
 ```py
 list(df.columns)
 ```
-*print all indexing in the datafame:
+* Print all indexing in the datafame:
 ```py
 df.index
 ```
-* print basic statistics on data:
+* Print basic statistics on data:
 ```py
 df.describe()
 ```
+# LOC VS ILOC:
+* Reprint the dataset again
+```py
+df.head()
+```
+* #Select values in the Listeners row that are worth 6:
+```py
+df.loc[(df['LISTENERS']  == 6)]
+```
+* # print value from row 12 to row 23:
+```py
+df.iloc[12:24]
+```
+#Group By
+* Find groups that have something in common:
+```py
+group_df= df[["DAYS","FOLLOWERS"]] 
+group_df
+```
+* Draw a pie chart showing the number of album followers:
+```py
+group_df.plot.pie(subplots=True,figsize=(10,10))
+```
+* Draw a column chart showing the number of people listening to the album:
+```py
+df["LISTENERS"].plot.bar(color="red")
+```
+* Count the most followers in the last 28 days, and rank them in descending order:
+```py
+c = df.groupby("DAYS")["FOLLOWERS"].sum()
+c.sort_values(ascending = False).head(5)
+```
+
 
 
