@@ -33,6 +33,7 @@ df.shape
 ```py
 df.info()
 ```
+![Imgur](https://i.imgur.com/C8B1wHk.jpg)
 * Print all the columns' name:
 ```py
 list(df.columns)
@@ -45,6 +46,8 @@ df.index
 ```py
 df.describe()
 ```
+![Imgur](https://i.imgur.com/rDAga5B.jpg)
+
 # LOC VS ILOC:
 * .loc: Access a group of rows and columns by label(s) or a boolean array.
 .loc is primarily label based, but may also be used with a boolean array.
@@ -59,10 +62,14 @@ df.head()
 ```py
 df.loc[(df['LISTENERS']  == 6)]
 ```
+![Imgur](https://i.imgur.com/gAQeLio.jpg)
+
 * Print value from row 12 to row 23:
 ```py
 df.iloc[12:24]
 ```
+![Imgur](https://i.imgur.com/f3ejH6K.png)
+
 # Group By
 * 
 * Find groups that have something in common:
@@ -74,10 +81,12 @@ group_df
 ```py
 group_df.plot.pie(subplots=True,figsize=(10,10))
 ```
+![Imgur](https://i.imgur.com/FmXN0Ic.png)
 * Draw a column chart showing the number of people listening to the album:
 ```py
 df["LISTENERS"].plot.bar(color="red")
 ```
+![Imgur](https://i.imgur.com/by8cswe.jpg)
 * Count the most followers in the last 28 days, and rank them in descending order:
 ```py
 c = df.groupby("DAYS")["FOLLOWERS"].sum()
