@@ -23,7 +23,7 @@ df = pd.read_csv("audience.tsv",sep = "\t")
 ```py
 df.head()
 ```
-!(file:///Users/phamthiminhthuy2312/Pictures/Thu%CC%9B%20vie%CC%A3%CC%82n%20a%CC%89nh.photoslibrary/resources/derivatives/masters/D/DF406667-C29D-4939-8A6F-DE884AD3C3B0_4_5005_c.jpeg)
+![ acc]](https://imgur.com/BKH8pQs)
 
 * Then I view the dataframe's size using the "shape":
 ```py
