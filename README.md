@@ -6,10 +6,13 @@
 # How to work with the gấu trúc library?
 ![Just a fun gif](https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif)
 
-*Load the library:
+* Load the library:
 
 ```( import pandas as pd}```
 
 ```(import numpy as np}```
 * To read a file .csv i use the "read_csv".And will be returned a dataframe.
+```py
+df = pd.read_csv("audience.tsv",sep = "\t")
+
 
